@@ -6,6 +6,7 @@ import cors from "cors";
 import dbConnect from "./config/dbConnect.js";
 
 dotenv.config();
+dbConnect();
 
 const app = express();
 app.use(json())
